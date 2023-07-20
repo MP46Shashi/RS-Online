@@ -382,14 +382,17 @@ a {
   }
 
 
-  .product-grid .card:hover {
+  .product-grid .card1:hover {
 	box-shadow: 0 2px 6px 0 rgb(218 218 253 / 55%), 0 2px 6px 0 rgb(206 206 238 / 44%);
+	z-index: 9999;
   }
 
   .product-grid .card img {
 	-webkit-transition: 0.4s ease;
 	transition: 0.4s ease;
 	border-radius: 0;
+	padding: 10px;
+	background-color: #e6e0e0 !important
   }
 
 
@@ -2067,3 +2070,22 @@ body.bg-theme15 {
 .shadow {
 	background-color: var(--main-bg-color) !important
   }
+
+  .services{
+	background-color:#ffc107;
+	text-decoration: none;
+	width: 14rem;
+	height: 2.5rem;
+	border-radius: 8px;
+	border: black 0.5px solid;
+  }
+
+  .services:hover{
+	background-color:#ffc10700;
+	text-decoration: none;
+	width: 14rem;
+	height: 2.5rem;
+	border-radius: 8px;
+	border: black 0.5px solid;
+  }
+

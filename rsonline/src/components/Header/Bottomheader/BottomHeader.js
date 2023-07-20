@@ -2,7 +2,7 @@ import React from "react";
 import "./bottom.css";
 export default function BottomHeader() {
   return (
-    <div style={{position:"sticky",top:"0"}}>
+    <div style={{position:"sticky",top:"0",}}>
       
         <div id="post" class="primary-menu ">
           <nav class="navbar navbar-expand-xl w-100 navbar-dark container mb-0 p-0">
