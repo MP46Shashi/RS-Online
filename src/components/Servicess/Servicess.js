@@ -108,7 +108,7 @@ export default function Servicess() {
                             <div class="col">
                                 <div class="card-body p-3">
                                     <h5 class="card-title text-uppercase fw-bold">Results</h5>
-                                    <p class="card-text text-uppercase">Of Any Exam Of Any Exam Of Any Exam Of Any Exam Of Any Exam</p><a href="javascript:;" class="btn btn-outline-warning  btn-ecomm text-green" >Apply
+                                    <p class="card-text text-uppercase">Of Any Exam </p><a href="javascript:;" class="btn btn-outline-warning  btn-ecomm text-green" >Apply
                                         Now</a>
                                 </div>
                             </div>

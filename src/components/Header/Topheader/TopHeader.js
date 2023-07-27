@@ -6,15 +6,15 @@ export default function TopHeader() {
         <nav className="navbar navbar-expand text-white">
             <div className="shiping-title d-none d-sm-flex">Welcome To RS Online Service!</div>
             <ul className="navbar-nav ms-auto d-none d-lg-flex">
-                <li class="nav-item"><a class="nav-link text-white" href="order-tracking.html">Track Order</a>
+                <li class="nav-item"><a class="nav-link text-white" href="/Trackingoder">Track Order</a>
                 </li>
-                <li class="nav-item"><a class="nav-link text-white" href="about-us.html">About</a>
+                {/* <li class="nav-item"><a class="nav-link text-white" href="about-usrequired/>">About</a>
+                </li> */}
+                {/* <li class="nav-item"><a class="nav-link text-white" href="shop-categoriesrequired/>">Our Stores</a>
+                </li> */}
+                <li class="nav-item"><a class="nav-link text-white" href="/Blogs">Blog</a>
                 </li>
-                <li class="nav-item"><a class="nav-link text-white" href="shop-categories.html">Our Stores</a>
-                </li>
-                <li class="nav-item"><a class="nav-link text-white" href="blog-post.html">Blog</a>
-                </li>
-                <li class="nav-item"><a class="nav-link text-white" href="contact-us.html">Contact</a>
+                <li class="nav-item"><a class="nav-link text-white" href="contact-us">Contact</a>
                 </li>
                 <li class="nav-item"><a class="nav-link text-white" href="javascript:;">Become Retailer</a>
                 </li>
