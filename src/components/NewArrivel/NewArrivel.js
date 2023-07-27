@@ -29,97 +29,11 @@ const NewArrivel = () => {
                     <h5 class="mb-0 fw-bold separator-title">New Arrivals</h5>
                     <div class="line"></div>
                 </div>
-                <OwlCarousel className='owl-theme text-center' margin={5} items={"4"} loop={true} mouseDrag={true} dots={false} autoplay={true}
+                <OwlCarousel className='owl-theme ' margin={5} items={"4"} loop={true} mouseDrag={true} dots={false} autoplay={true}
                     {...options} nav>
+                    
                     <div class='item'>
-
-                        <div class="">
-                            <div class="position-relative overflow-hidden">
-                                <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
-                                    <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
-                                </div>
-                                <div class="quick-view position-absolute start-0 bottom-0 end-0">
-                                    <a href="javascript:;" data-bs-toggle="modal"
-                                        data-bs-target="#QuickViewProduct">Quick View</a>
-                                </div>
-                                <a href="javascript:;">
-                                    <img src="./images/products/11.png" class="img-fluid"
-                                        alt="..." />
-                                </a>
-                            </div>
-                            <div class="card-body px-0">
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="">
-                                        <p class="mb-1 product-short-name">ACCESSORIES</p>
-                                        <h6 class="mb-0 fw-bold product-short-title">White Polo Shirt
-                                        </h6>
-                                    </div>
-                                    <div class="icon-wishlist">
-                                        <a href="javascript:;"><i class="bx bx-heart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="cursor-pointer rating mt-2">
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                </div>
-                                <div
-                                    class="product-price d-flex align-items-center justify-content-start gap-2 mt-2">
-                                    <div
-                                        class="h6 fw-light fw-bold text-secondary text-decoration-line-through">
-                                        &#x20B9; 59.00</div>
-                                    <div class="h6 fw-bold">&#x20B9; 48.00</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='item'>
-                        <div class="">
-                            <div class="position-relative overflow-hidden">
-                                <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
-                                    <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
-                                </div>
-                                <div class="quick-view position-absolute start-0 bottom-0 end-0">
-                                    <a href="javascript:;" data-bs-toggle="modal"
-                                        data-bs-target="#QuickViewProduct">Quick View</a>
-                                </div>
-                                <a href="javascript:;">
-                                    <img src="./images/products/12.png" class="img-fluid"
-                                        alt="..." />
-                                </a>
-                            </div>
-                            <div class="card-body px-0">
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <div class="">
-                                        <p class="mb-1 product-short-name">ACCESSORIES</p>
-                                        <h6 class="mb-0 fw-bold product-short-title">White Polo Shirt
-                                        </h6>
-                                    </div>
-                                    <div class="icon-wishlist">
-                                        <a href="javascript:;"><i class="bx bx-heart"></i></a>
-                                    </div>
-                                </div>
-                                <div class="cursor-pointer rating mt-2">
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                    <i class="bx bxs-star text-warning"></i>
-                                </div>
-                                <div
-                                    class="product-price d-flex align-items-center justify-content-start gap-2 mt-2">
-                                    <div
-                                        class="h6 fw-light fw-bold text-secondary text-decoration-line-through">
-                                        &#x20B9; 59.00</div>
-                                    <div class="h6 fw-bold">&#x20B9; 48.00</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='item'>
-                        <div class="">
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -133,7 +47,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -144,7 +58,7 @@ const NewArrivel = () => {
                                         <a href="javascript:;"><i class="bx bx-heart"></i></a>
                                     </div>
                                 </div>
-                                <div class="cursor-pointer rating mt-2">
+                                <div class="cursor-pointer text-start  rating mt-2">
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
@@ -162,7 +76,7 @@ const NewArrivel = () => {
                         </div>
                     </div>
                     <div class='item'>
-                        <div class="">
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -176,7 +90,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body ">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -205,7 +119,93 @@ const NewArrivel = () => {
                         </div>
                     </div>
                     <div class='item'>
-                        <div class="">
+                        <div class="card">
+                            <div class="position-relative overflow-hidden">
+                                <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
+                                    <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
+                                </div>
+                                <div class="quick-view position-absolute start-0 bottom-0 end-0">
+                                    <a href="javascript:;" data-bs-toggle="modal"
+                                        data-bs-target="#QuickViewProduct">Quick View</a>
+                                </div>
+                                <a href="javascript:;">
+                                    <img src="./images/products/13.png" class="img-fluid"
+                                        alt="..." />
+                                </a>
+                            </div>
+                            <div class="card-body ">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="">
+                                        <p class="mb-1 product-short-name">ACCESSORIES</p>
+                                        <h6 class="mb-0 fw-bold product-short-title">White Polo Shirt
+                                        </h6>
+                                    </div>
+                                    <div class="icon-wishlist">
+                                        <a href="javascript:;"><i class="bx bx-heart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer text-start rating mt-2">
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                </div>
+                                <div
+                                    class="product-price d-flex align-items-center justify-content-start gap-2 mt-2">
+                                    <div
+                                        class="h6 fw-light fw-bold text-secondary text-decoration-line-through">
+                                        &#x20B9; 59.00</div>
+                                    <div class="h6 fw-bold">&#x20B9; 48.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item'>
+                        <div class="card">
+                            <div class="position-relative overflow-hidden">
+                                <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
+                                    <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
+                                </div>
+                                <div class="quick-view position-absolute start-0 bottom-0 end-0">
+                                    <a href="javascript:;" data-bs-toggle="modal"
+                                        data-bs-target="#QuickViewProduct">Quick View</a>
+                                </div>
+                                <a href="javascript:;">
+                                    <img src="./images/products/14.png" class="img-fluid"
+                                        alt="..." />
+                                </a>
+                            </div>
+                            <div class="card-body ">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="">
+                                        <p class="mb-1 product-short-name">ACCESSORIES</p>
+                                        <h6 class="mb-0 fw-bold product-short-title">White Polo Shirt
+                                        </h6>
+                                    </div>
+                                    <div class="icon-wishlist">
+                                        <a href="javascript:;"><i class="bx bx-heart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer text-start rating mt-2">
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                </div>
+                                <div
+                                    class="product-price d-flex align-items-center justify-content-start gap-2 mt-2">
+                                    <div
+                                        class="h6 fw-light fw-bold text-secondary text-decoration-line-through">
+                                        &#x20B9; 59.00</div>
+                                    <div class="h6 fw-bold">&#x20B9; 48.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item'>
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -219,7 +219,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body ">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -230,7 +230,7 @@ const NewArrivel = () => {
                                         <a href="javascript:;"><i class="bx bx-heart"></i></a>
                                     </div>
                                 </div>
-                                <div class="cursor-pointer rating mt-2">
+                                <div class="cursor-pointer text-start rating mt-2">
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
@@ -248,7 +248,7 @@ const NewArrivel = () => {
                         </div>
                     </div>
                     <div class='item'>
-                        <div class="">
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -262,7 +262,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body ">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -273,7 +273,7 @@ const NewArrivel = () => {
                                         <a href="javascript:;"><i class="bx bx-heart"></i></a>
                                     </div>
                                 </div>
-                                <div class="cursor-pointer rating mt-2">
+                                <div class="cursor-pointer text-start rating mt-2">
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
@@ -291,7 +291,7 @@ const NewArrivel = () => {
                         </div>
                     </div>
                     <div class='item'>
-                        <div class="">
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -305,7 +305,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body ">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -316,7 +316,7 @@ const NewArrivel = () => {
                                         <a href="javascript:;"><i class="bx bx-heart"></i></a>
                                     </div>
                                 </div>
-                                <div class="cursor-pointer rating mt-2">
+                                <div class="cursor-pointer text-start rating mt-2">
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
@@ -334,7 +334,7 @@ const NewArrivel = () => {
                         </div>
                     </div>
                     <div class='item'>
-                        <div class="">
+                        <div class="card">
                             <div class="position-relative overflow-hidden">
                                 <div class="add-cart position-absolute top-0 end-0 mt-3 me-3">
                                     <a href="javascript:;"><i class='bx bx-cart-add'></i></a>
@@ -348,7 +348,7 @@ const NewArrivel = () => {
                                         alt="..." />
                                 </a>
                             </div>
-                            <div class="-body px-0">
+                            <div class="card-body ">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="">
                                         <p class="mb-1 product-short-name">ACCESSORIES</p>
@@ -359,7 +359,7 @@ const NewArrivel = () => {
                                         <a href="javascript:;"><i class="bx bx-heart"></i></a>
                                     </div>
                                 </div>
-                                <div class="cursor-pointer rating mt-2">
+                                <div class="cursor-pointer text-start rating mt-2">
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
                                     <i class="bx bxs-star text-warning"></i>
